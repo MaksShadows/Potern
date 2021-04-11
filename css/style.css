@@ -756,6 +756,7 @@ a {
 
   .new__arrivals-inner {
     padding-bottom: 80px;
+    width: 100%;
   }
 
 }
@@ -806,6 +807,11 @@ a {
 
 @media (max-width: 370px) {
 
+
+  .footer {
+    width: 100%;
+  }
+
   .footer__top-inner {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -855,6 +861,15 @@ a {
 @media (max-width: 340px) {
   .inner__top {
     width: 280px;
+    height: 280px;
+  }
+
+  .inner__title {
+    font-size: 45px;
+  }
+
+  .inner__title::after {
+    width: 190px;
   }
 
   .footer__text-top {
