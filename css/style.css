@@ -347,7 +347,7 @@ a {
 
 .collections__container {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
 }
 
@@ -690,6 +690,10 @@ a {
     max-width: 325px;
   }
 
+  .collections__right {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 1030px) {
@@ -724,6 +728,12 @@ a {
     max-width: 325px;
   }
 
+  .collections__right {
+    width: 100%;
+  }
+
+  /* .collections__left-inner {} */
+
 }
 
 
@@ -735,6 +745,10 @@ a {
   .intro__inner {
     padding-top: 110px;
     padding-bottom: 60px;
+  }
+
+  .collections__right {
+    width: 100%;
   }
 
 }
@@ -756,6 +770,10 @@ a {
 
   .new__arrivals-inner {
     padding-bottom: 80px;
+    width: 100%;
+  }
+
+  .collections__right {
     width: 100%;
   }
 
