@@ -283,7 +283,7 @@ a {
 
 .season__left {
   width: 40%;
-  /* height: 600px; */
+  height: 600px;
   background: url("../img/catalogue.jpg");
   background-size: cover;
   display: flex;
@@ -347,13 +347,13 @@ a {
 
 .collections__container {
   width: 100%;
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
 }
 
 .collections__right {
   width: 40%;
-  height: 600px;
+  /* height: 600px; */
   background-size: cover;
 }
 
@@ -381,7 +381,9 @@ a {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF
+  color: #fff;
+  margin: 0;
+
 }
 
 .collections__title::after {
@@ -400,7 +402,8 @@ a {
   line-height: 150%;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 40px;
+  margin: 0;
+  padding-top: 40px;
 }
 
 .collections__left-btn {
@@ -409,6 +412,7 @@ a {
   border: 1px solid #FFFFFF;
   background: none;
   margin-top: 40px;
+  padding: 0;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -679,6 +683,19 @@ a {
 }
 
 
+@media (max-width: 1175px) {
+  .season__container {
+    width: 100%;
+  }
+
+  .season__right {
+    width: 100%;
+  }
+
+  .season__left {
+    width: 100%;
+  }
+}
 
 @media (max-width: 1085px) {
 
@@ -692,6 +709,27 @@ a {
 
   .collections__right {
     width: 100%;
+  }
+
+  .collections__left {
+    width: 100%;
+  }
+
+  .collections__left-text {
+    padding-top: 35px;
+  }
+
+  .season__container {
+    flex-direction: column;
+  }
+
+  .season__right {
+    width: 100%;
+  }
+
+  .new__arrivals-inner {
+    padding-top: 90px;
+    padding-bottom: 80px;
   }
 
 }
@@ -732,6 +770,14 @@ a {
     width: 100%;
   }
 
+  .season__right {
+    width: 100%;
+  }
+
+  .new__arrivals-inner {
+    padding-top: 70px;
+  }
+
   /* .collections__left-inner {} */
 
 }
@@ -749,6 +795,10 @@ a {
 
   .collections__right {
     width: 100%;
+  }
+
+  .season_title {
+    padding-top: 60px;
   }
 
 }
@@ -790,6 +840,31 @@ a {
 
 }
 
+
+@media (max-width: 565px) {
+  .top__inner {
+    padding: 0 5px;
+  }
+
+  .top__text {
+    display: none;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .collections__left-inner {
+    max-width: 400px;
+  }
+
+  .collections__left-text {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+
+}
+
 @media (max-width: 440px) {
   .inner__text {
     font-size: 14px;
@@ -819,6 +894,18 @@ a {
     text-align: center;
     padding-bottom: 20px;
   }
+
+  .season_title {
+    padding-top: 30px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .collections__left-inner {
+    max-width: 300px;
+  }
+
 
 }
 
