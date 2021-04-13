@@ -662,9 +662,8 @@ a {
 
 .footer__items {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 .footer__item {
@@ -672,7 +671,6 @@ a {
   background: #0f0f0f;
   color: #d0d0d0;
   padding: 10px 20px;
-  ;
 }
 
 
