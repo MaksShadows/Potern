@@ -937,6 +937,10 @@ a {
     padding: 8px 20px;
   }
 
+  .search {
+    padding-bottom: 20px;
+  }
+
   .nav-toggle {
     display: block;
   }
@@ -980,6 +984,16 @@ a {
 
   .collections__right {
     width: 100%;
+  }
+
+  .brands__inner {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .carousel__brand {
+    margin-top: -80px;
+    margin-bottom: -50px;
   }
 
 }
@@ -1120,6 +1134,10 @@ a {
   .new__arrivals-title {
     font-size: 28px;
   }
+
+  .brand__img {
+    max-width: 225px;
+  }
 }
 
 @media (max-width: 340px) {
@@ -1138,5 +1156,9 @@ a {
 
   .footer__text-top {
     font-size: 12px;
+  }
+
+  .brand__img {
+    max-width: 200px;
   }
 }
