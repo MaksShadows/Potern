@@ -4,6 +4,13 @@
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: 'Post No Bills Jaffna';
+  src: url('../fonts/PostNoBillsJaffna-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 html {
   box-sizing: border-box;
@@ -243,7 +250,7 @@ a {
 .inner__title::after {
   content: '';
   display: block;
-  width: 260px;
+  width: 185px;
   height: 2px;
   background-color: #FFFFFF;
 }
