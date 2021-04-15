@@ -419,7 +419,6 @@ a {
 .collections__right {
     width: 40%;
     height: 600px;
-    background: url('../img/collection.jpg') center center;
     background-size: cover;
 }
 
