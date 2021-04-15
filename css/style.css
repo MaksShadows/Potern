@@ -363,7 +363,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 
 }
 
@@ -385,7 +385,7 @@ a {
     width: 120px;
     height: 2px;
     background: #fff;
-    margin: 10px auto;
+    margin: 15px auto;
 
 }
 
@@ -1029,6 +1029,12 @@ a {
 
     .season_title {
         padding-top: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .collections__left-inner {
+        max-width: 350px;
     }
 }
 
