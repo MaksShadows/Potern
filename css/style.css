@@ -418,13 +418,12 @@ a {
 
 .collections__right {
     width: 40%;
-    height: auto;
+    height: 600px;
     background-size: cover;
 }
 
 .collections__left {
     width: 60%;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -541,7 +540,6 @@ a {
 }
 
 .new__arrivals-img {
-    background-color: #191b1c;
     padding: 20px 0px;
 }
 
@@ -954,9 +952,13 @@ a {
         padding-bottom: 0;
     }
 
+    .brand__title {
+        padding-top: 35px;
+    }
+
     .carousel__brand {
-        margin-top: -80px;
-        margin-bottom: -50px;
+        margin-top: -145px;
+        margin-bottom: -100px;
     }
 }
 
