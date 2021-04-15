@@ -1,5 +1,4 @@
 $(function() {
-
     /* Menu nav toggle */
     $("#nav_toggle").on("click", function(event) {
         event.preventDefault();
@@ -7,5 +6,4 @@ $(function() {
         $(this).toggleClass("active");
         $("#nav").toggleClass("active");
     });
-
 });
