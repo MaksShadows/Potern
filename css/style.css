@@ -418,7 +418,7 @@ a {
 
 .collections__right {
     width: 40%;
-    height: 600px;
+    height: auto;
     background-size: cover;
 }
 
@@ -540,6 +540,7 @@ a {
 }
 
 .new__arrivals-img {
+    background: #191b1c;
     padding: 20px 0px;
 }
 
