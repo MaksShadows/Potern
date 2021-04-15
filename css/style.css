@@ -1151,3 +1151,13 @@ a {
         max-width: 200px;
     }
 }
+
+@media (max-width: 320px) {
+    .top__info {
+        font-size: 11px;
+    }
+
+    .phone {
+        padding-left: 10px;
+    }
+}
