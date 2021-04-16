@@ -738,13 +738,6 @@ a {
     color: #D0D0D0;
 }
 
-/* @media (max-width: 1250px) {
-    .collections__right {
-        width: 100%;
-        height: 600px;
-    }
-
-} */
 
 @media (max-width: 1200px) {
     .season__items {
@@ -1046,7 +1039,6 @@ a {
 @media (max-width: 650px) {
     .collections__right {
         width: 100%;
-        height: 500px;
     }
 
 }
